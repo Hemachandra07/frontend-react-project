@@ -31,7 +31,6 @@ export default function ViewAllFaculty()
         fetchFaculty()
     }, []);  // empty dependency (input) - runs only once
        
-
   return (
     <div>
       <h3 style={{textAlign:"center"}}><u>View All Faculty </u></h3>
